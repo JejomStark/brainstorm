@@ -1,0 +1,23 @@
+{
+  "name": "brainstorm",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Brainstorm a need in a local Lavish review page, round after round, until the deliverable is written. A Claude Code skill.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "claude-code",
+    "agent-skills",
+    "skill",
+    "brainstorming",
+    "lavish",
+    "spec",
+    "adr"
+  ]
+}

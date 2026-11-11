@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="__BRAINSTORM_LANG__" data-lavish-annotate="off">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brainstorm</title>
+<style>
+__BRAINSTORM_CSS__
+</style>
+</head>
+<body>
+<div class="shell">
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">◇</span> <span data-i18n="brand">{{t:brand}}</span></div>
+    <h1 id="page-title">{{t:defaultTitle}}</h1>
+    <div class="lang-select" id="lang-select"></div>
+    <ol class="stepper" id="stepper" data-i18n-label="stepperLabel" aria-label="{{t:stepperLabel}}"></ol>
+  </header>
+  <p class="mode-hint" role="note" data-i18n="modeHint">{{t:modeHint}}</p>
+  <div class="layout">
+    <main id="main" class="main" aria-live="polite"></main>
+    <aside class="panel" id="panel" data-i18n-label="panelLabel" aria-label="{{t:panelLabel}}"></aside>
+  </div>
+</div>
+<script type="application/json" id="brainstorm-i18n">__BRAINSTORM_I18N__</script>
+<script type="application/json" id="brainstorm-data">__BRAINSTORM_JSON__</script>
+<script>
+__BRAINSTORM_JS__
+</script>
+</body>
+</html>
